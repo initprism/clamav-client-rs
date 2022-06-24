@@ -1,0 +1,11 @@
+[package]
+name                    = "clamav"
+version                 = "0.1.0"
+edition                 = "2018"
+
+[dependencies]
+thiserror               = { version = "1.0.30" }
+nom                     = { version = "4.0.0" }
+byteorder               = { version = "1.4.3" }
+chrono                  = { version = "0.4.19", features = ["serde"] }
+serde                   = { version = "1", features = ["derive"] }
